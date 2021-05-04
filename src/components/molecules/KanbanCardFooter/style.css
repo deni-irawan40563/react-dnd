@@ -1,0 +1,10 @@
+#kanban-card-footer {
+  display: flex;
+  cursor: pointer;
+  margin-top: 15.89px;
+}
+#kanban-card-footer span {
+  margin-left: 9.38px;
+  font-size: 14px;
+  margin-top: 3px;
+}

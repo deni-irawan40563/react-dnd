@@ -1,0 +1,15 @@
+#kanban-card {
+  width: 306px;
+  min-height: 184px;
+  background: var(--bg-pink);
+  border: 1px solid var(--pink);
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.duration-info {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+}
+

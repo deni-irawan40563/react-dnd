@@ -1,3 +1,18 @@
+
+.task-card-menu {
+  font-weight: 700;
+  color: #8C8C8C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 2px;
+}
+.task-card-menu:hover{
+  background: #F2F2F2;
+  border-radius: 7px;
+}
+
 #button {
   height: 35px;
   width: 100px;

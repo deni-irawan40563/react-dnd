@@ -1,0 +1,15 @@
+#task-card {
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #E4E4E8;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.task-card-footer {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  margin-top: 18px;
+}

@@ -1,0 +1,31 @@
+progress {
+	display:grid;
+  grid-template-columns: 6fr 1fr;
+  gap: 5px;
+	width:90px;
+	height:8px;
+	padding:15px 0 0 0;
+	margin:0;
+	background:none;
+	border-radius: 8px;
+	text-align: left;
+	position:relative;
+  font-weight: 400;
+}
+progress::-webkit-progress-bar {
+	height:8px;
+	width:90px;
+	margin:0 auto;
+	background-color: #F5F5F5;
+	border-radius: 8px;
+}
+progress::-webkit-progress-value {
+	height:8px;
+	background:#1890FF; 
+	border-radius: 8px;
+}
+progress:after {
+	content: attr(value) '%';
+  color: #8C8C8C;
+  margin: -6px 0 0 0;
+}

@@ -1,0 +1,9 @@
+#aside {
+  height: 100vh;
+  width: 68px;
+  padding: 20px 11px;
+  background-color: #2F3136;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
