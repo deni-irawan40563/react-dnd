@@ -1,0 +1,60 @@
+.email-form {
+  position: relative;
+  margin-top: 10px;
+  color: black;
+}
+
+.email-form label {
+  /* Position the label */
+  left: 43%;
+  position: absolute;
+  top: 0;
+
+  /* Hide it by default */
+  opacity: 0;
+  transition: 'all 200ms';
+}
+
+/* Show the label at desired position when the placeholder of input isn't shown */
+.email-form input:not(:placeholder-shown) + label {
+  background: #fff;
+  transform: translate(0, -50%);
+  opacity: 1;
+  padding: 1px 10px;
+  border-radius: 20px;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input {
+  text-align: center;
+  height: 40px;
+  width: 100%;
+}
+
+.error-message {
+  display: none;
+  font-weight: 200;
+  color: red;
+  font-size: 0.75em;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+  border-color: red;
+  color: red;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
+  display: block;
+}
+
+#email:not(:focus):not(:placeholder-shown):valid {
+  border-color: lightgreen;
+}

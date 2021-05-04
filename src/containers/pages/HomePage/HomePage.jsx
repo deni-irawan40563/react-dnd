@@ -1,4 +1,8 @@
+//Import React Dependency
 import React, { Component } from 'react'
+
+//Import Style
+import './style.css'
 
 export default class HomePage extends Component {
   render() {

@@ -1,0 +1,13 @@
+input {
+  background-color: var(--bg-violet);
+  text-align: center;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid #D3ADF7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
