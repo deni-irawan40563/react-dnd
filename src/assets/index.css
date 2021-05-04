@@ -1,0 +1,40 @@
+/*Import Rubik font*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+/*Import Open-sans Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  /*Font Style Property's*/
+  --open-sans: 'Open Sans', sans-serif;
+  --rubik: 'Rubik', sans-serif;
+  /*Color Scheme property's*/
+  --bg-pink: #FFF9FB;
+  --pink: #EB2F96;
+  --bg-violet: #FCFAFD;
+  --violet: #7B61FF;
+  --bg-blue: #F7FAFF;
+  --blue: #2F54EB;
+  --bg-green: #F8FEF1;
+  --green: #52C41A;
+}
+
+/* Basic Setting for Global CSS*/
+* {
+  margin: unset;
+  box-sizing: border-box;
+}
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  color: #4F4F4F;
+  font-family: var(--rubik);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+}
